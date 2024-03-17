@@ -41,6 +41,11 @@ class Calculator(val name: String) {
     return result
   }
 
+  fun percentage(param1: Int, param2: Int): Any{
+    var decimalForm = param1 * 0.01
+    print("$param1% of $param2 = ")
+    return decimalForm * param2
+  }
 }
 
 fun main() {
