@@ -15,6 +15,12 @@ class Calculator(val name: String) {
     return param1 - param2
   }
 
+  //function multiplication
+  fun multiply(param1: Int, param2: Int): Int {
+    print("$param1 * $param2 = ")
+    return param1 * param2
+  }
+
 }
 
 fun main() {
