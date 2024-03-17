@@ -50,4 +50,12 @@ class Calculator(val name: String) {
 
 fun main() {
 
+  val myCalculator = Calculator("Lais")
+  println(myCalculator.add(5,7))
+  println(myCalculator.substract(-1, 7))
+  println(myCalculator.multiply(-2, 48))
+  println(myCalculator.divide(70, 5))
+  println(myCalculator.power(2, 3))
+  println(myCalculator.percentage(50, 20))
+
 }
