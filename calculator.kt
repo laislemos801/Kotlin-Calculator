@@ -21,6 +21,16 @@ class Calculator(val name: String) {
     return param1 * param2
   }
 
+  //function division
+  fun divide(param1: Int, param2: Int): Any {
+    if (param2 == 0){
+      return "Error. You can't divide by 0."
+    } else {
+      print("$param1 / $param2 = ")
+      return param1 / param2
+    }
+  }
+
 }
 
 fun main() {
