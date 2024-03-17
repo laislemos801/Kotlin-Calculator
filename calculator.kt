@@ -31,6 +31,16 @@ class Calculator(val name: String) {
     }
   }
 
+  //function power
+  fun power(param1: Int, param2: Int): Int {
+    var result = 1
+    for (i in 1..param2){
+      result *= param1
+    }
+    print("$param1 ^ $param2 = ")
+    return result
+  }
+
 }
 
 fun main() {
